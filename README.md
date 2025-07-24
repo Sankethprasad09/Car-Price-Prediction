@@ -57,68 +57,68 @@ In this section of the project, the data is explored to see the patterns and tre
 
 Looking at the dataset, it can be seen that there are categories such as Vehicle Size, city mpg, popularity, and transmission types. There are other features that we would explore in visualizations. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/Data%20Image.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/11814c512f1c1a41b4175d442be249a51875f506/Images/Data%20Image.png"/>
 
 We will be taking a look at a list of visualizations that can give us an understanding of the data. 
 Exploring the count of various car companies available in the dataset, it is seen that Chevrolet has the highest number of cars followed by Ford. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/Total%20Cars%20Count.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/11814c512f1c1a41b4175d442be249a51875f506/Images/Total%20Cars%20Count.png"/>
 
 With the progress in years, there is an increase in the demand for cars sold. This is clearly demonstrated in the visualization. In addition, our ML models would perform well on the most recent cars as we have more data in this category. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/Cars%20Sold.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/11814c512f1c1a41b4175d442be249a51875f506/Images/Cars%20Sold.png"/>
 
 Most of the cars are automatic as depicted in the plot. There are fewer manual cars compared to automatic cars. There are also a few unknown categories. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/Transmission%20type%20countplot.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/11814c512f1c1a41b4175d442be249a51875f506/Images/Transmission%20type%20countplot.png"/>
 
 Most of the cars have a regular unleaded engine type. There are also electric cars in our categories. Since electric cars are new, they are low in number in the dataset. There are a few car categories that use diesel or other types of fuels. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/Engine%20type%20countplot.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/11814c512f1c1a41b4175d442be249a51875f506/Images/Engine%20type%20countplot.png"/>
 
 A large portion of cars are compact vehicle-size cars. But we tend to see that there is quite an equal distribution of cars amount the various vehicle size categories. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/Countplot%20of%20vehicle%20size.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/11814c512f1c1a41b4175d442be249a51875f506/Images/Countplot%20of%20vehicle%20size.png"/>
 
 Missingno plots are useful to help us determine the total number of missing values in the dataset. There are missing values in categories such as 'Market Category' and 'Engine HP'. Based on this information, steps are taken to either impute the missing values or remove them so that they do not have an impact on the ML model performance of determining the prices of cars. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/Missingno%20plot.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/11814c512f1c1a41b4175d442be249a51875f506/Images/Missingno%20plot.png"/>
 
 The overall prices of cars were the highest for the year '2014' compared to other years. The next highest average prices of cars are in the year '2012'. The lowest prices of cars are in the year '1990'. Hence, the year is a useful feature in determining car prices based on the plot below. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/Avg%20car%20prices%20per%20year%20plot.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/11814c512f1c1a41b4175d442be249a51875f506/Images/Avg%20car%20prices%20per%20year%20plot.png"/>
 
 Cars that have both automatic and manual transmission has the highest average prices for all the years. This is followed by only automatic transmission-type cars. There are a few unknown categories that must be either removed or converted to a category as they do not aid in helping to understand the transmission type of cars.  
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/Avg%20prices%20per%20transmission%20plot.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/11814c512f1c1a41b4175d442be249a51875f506/Images/Avg%20prices%20per%20transmission%20plot.png"/>
 
 The average prices of cars for companies such as Bugatti and Maybach are the highest. There is a significant difference in terms of price for companies such as Bugatti vs other cars. This is true in real life because of their popularity in the modern world. Some of the most expensive brands, according to the plot, include Bugatti, Maybach, Rolls-Royce, Lamborghini, Bentley, McLaren, and Ferrari. You can explore the plot to understand the average car prices for various car brands. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/avg%20prices%20per%20company%20plot.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/11814c512f1c1a41b4175d442be249a51875f506/Images/avg%20prices%20per%20company%20plot.png"/>
 
 This is a bar chart highlighting the horsepower of various car manufacturers. Without surprise, Bugatti has the highest horsepower despite having a higher price as compared to other brands. This was followed by McLaren and Mayback. These cars typically are the best in class when it comes to delivering performance. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/Horsepower%20plot.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/11814c512f1c1a41b4175d442be249a51875f506/Images/Horsepower%20plot.png"/>
 
 Car brands such as Ford and BMW are highly popular. Other popular brands include Audi, Ferrari, Honda, and Nissan. It can be interesting to see how much of an impact the popularity of cars has on car prices for various brands. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/Popularity%20plot.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/11814c512f1c1a41b4175d442be249a51875f506/Images/Popularity%20plot.png"/>
 
 The plots on the left below show the highway MPG for all the cars in the dataset. Based on this, it is seen that there are quite a few outliers in the data. Therefore, steps are taken to remove them. 
 
 The plots on the right show the highway MPG feature after removing the outliers from the data. In this way, the best ML model learns these features and represents them to make predictions about car prices. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/Highway%20mgp.png"/><img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/Highway%20mpg%20outliers%20removed.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/11814c512f1c1a41b4175d442be249a51875f506/Images/Highway%20mgp.png"/><img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/Highway%20mpg%20outliers%20removed.png"/>
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/Cith%20mpg.png"/><img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/City%20mpg%20outliers%20removed.png"/>
+<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/Cith%20mpg.png"/><img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/11814c512f1c1a41b4175d442be249a51875f506/Images/Highway%20mpg%20outliers%20removed.png"/>
 
 As evident in real-life, highway MPG for a particular car tends to be higher than the city MPG. This is reflected in this plot as there is a difference in the spread and the mean for each of the categories. There are still a few outliers but we will consider some of them and get the performance of models. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/City%20Vs%20Highway%20boxplot.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/11814c512f1c1a41b4175d442be249a51875f506/Images/City%20Vs%20Highway%20boxplot.png"/>
 
 Building a heatmap of the correlation matrix, it is seen that engine horsepower and engine cylinders are closely related. In addition, features such as city mpg and highway mpg are also correlated with each other. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/Heatmap%20correlation.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/11814c512f1c1a41b4175d442be249a51875f506/Images/Heatmap%20correlation.png"/>
 
 ### Model Performance
 
@@ -126,19 +126,19 @@ We will now focus our attention on the performance of __various models__ on the 
 
 [__Linear Regression__](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html) - After looking at the linear regression plot, it looks like the model is performing quite well. Scatterplots between the predictions and the actual test outputs closely resemble each other. If there are low latency requirements for a deployment setup, linear regression could be used. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/LR%20Plot.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/11814c512f1c1a41b4175d442be249a51875f506/Images/LR%20Plot.png"/>
 
 [__Support Vector Regressor__](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html) - Support vector regression (SVR) can be computational. In addition, the results below indicate that the predictions are far off from the actual car prices. Therefore, alternate models can be explored. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/SVR%20Plot.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/11814c512f1c1a41b4175d442be249a51875f506/Images/SVR%20Plot.png"/>
 
 [__K Nearest Regressor__](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html) - K-Nearest Regressor is doing a good job in predicting the car prices as highlighted in the plot below. There is less spread between the test output labels and the predictions generated by the model. Therefore, there are higher chances that the model gives a low mean absolute error and mean squared error. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/K%20Neighbors%20Regressor.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/11814c512f1c1a41b4175d442be249a51875f506/Images/K%20Neighbors%20Regressor.png"/>
 
 [__PLS Regression__](https://scikit-learn.org/stable/modules/generated/sklearn.cross_decomposition.PLSRegression.html) - This model does a good job overall when it comes to predicting car prices. However, it fails to compare trends and patterns for higher-priced cars well. This is evident due to the fact that there is a lot of spread among higher car price values as shown in the plot. K-Nearest Regressor, on the other hand, also does predictions accurately on higher priced cars. 
  
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/PLS%20Regressor%20plot.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/11814c512f1c1a41b4175d442be249a51875f506/Images/PLS%20Regressor%20plot.png"/>
 
 [__Decision Tree Regressor__](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html) - Based on all the models tested, the decision tree regressor was performing the best. As shown below, there is a lot of overlap between the predictions and the actual test values. 
 

@@ -142,23 +142,23 @@ We will now focus our attention on the performance of __various models__ on the 
 
 [__Decision Tree Regressor__](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html) - Based on all the models tested, the decision tree regressor was performing the best. As shown below, there is a lot of overlap between the predictions and the actual test values. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/Decision%20Tree%20Plot.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/e1e8c5aca69d003c17d8dd9c041b0605fbf6b1c6/Images/Decision%20Tree%20Plot.png"/>
 
 [__Gradient Boosting Regressor__](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html) - The performance of gradient boosted decision regressor is plotted and it shows that it is quite similar to the decision tree. At prices that are extremely high, the model fails to capture the trend in the data. It does a good job overall. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/GBDT%20Plot.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/e1e8c5aca69d003c17d8dd9c041b0605fbf6b1c6/Images/GBDT%20Plot.png"/>
 
 [__MLP Regressor__](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html) - It does a good job when it comes to predicting car prices. However, there are better models earlier that we can choose as their performance was better than MLP Regressor in this scenario. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/MLP%20Regressor%20plot.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/e1e8c5aca69d003c17d8dd9c041b0605fbf6b1c6/Images/MLP%20Regressor%20plot.png"/>
 
 [__Final Mean Absolute Error (MAE)__](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_absolute_error.html) - After performing feature engineering and hyperparameter tuning the models, the best model that gave the least mean absolute error (lower is better) was Decision Tree Regressor. Other models such as Support Vector Regressors took a long time to train along with giving less optimum results. Along with good performance, Decision Tree Regressors are highly interpretable and they give a good understanding of how a model gave predictions and which feature was the most important for it to decide car prices. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/Final%20MAE.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/e1e8c5aca69d003c17d8dd9c041b0605fbf6b1c6/Images/Final%20MAE.png"/>
 
 [__Final Mean Squared Error (MSE)__](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_squared_error.html) - The performance of the Decision Tree Regressor was also the highest when using mean squared error as the output metric. While the Gradient Boosted Regressor came close to the performance of a Decision Tree Regressor, the latter is highly interpretable and easier to deploy in real time. Therefore, we can choose this model for deployment as it is performing consistently across a large variety of metrics. 
 
-<img src = "https://github.com/suhasmaddali/Car-Prices-Prediction/blob/main/images/Final%20MSE.png"/>
+<img src = "https://github.com/Sankethprasad09/Car-Price-Prediction/blob/e1e8c5aca69d003c17d8dd9c041b0605fbf6b1c6/Images/Final%20MSE.png"/>
 
 ## Machine Learning Models 
 

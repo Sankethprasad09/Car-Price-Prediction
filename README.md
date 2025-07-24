@@ -8,7 +8,7 @@ There are a lot of __car manufacturers__ in the US. With the development of manu
 
 <img src = "https://github.com/Sankethprasad09/Images/blob/13f49d5459ba9d3a6f96004ef1e805dc612666db/car%20price%20prediction/bugatti%20car.jpg" width = 350 height = 200/><img src = "https://github.com/Sankethprasad09/Images/blob/13f49d5459ba9d3a6f96004ef1e805dc612666db/car%20price%20prediction/american%20car.jpg" width = 350 height = 200/>
 
-<img src = "https://github.com/Sankethprasad09/Images/blob/13f49d5459ba9d3a6f96004ef1e805dc612666db/car%20price%20prediction/VW%20Car.jpg" width = 350 height = 200/><img src = "https://github.com/Sankethprasad09/Images/blob/13f49d5459ba9d3a6f96004ef1e805dc612666db/car%20price%20prediction/bmw%20car.jpg" width = 350 height = 200/>
+<img src = "https://github.com/Sankethprasad09/Images/blob/13f49d5459ba9d3a6f96004ef1e805dc612666db/car%20price%20prediction/VW%20Car.jpg" width = 350 height = 200/><img src = "https://github.com/Sankethprasad09/Images/blob/e678be9ef4edbd95113a30219fcb75336d197d5e/car%20price%20prediction/merc%20car.jpg" width = 350 height = 200/>
 
 ## Business Constraints / Key Performance Metrics (KPIs)
 
